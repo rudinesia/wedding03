@@ -1,0 +1,49 @@
+
+$brand-color1: #A62800;
+$brand-color2: #4E2E1F;
+$brand-color3: #F0EAD7;
+
+.f-48{ font-size: 48px; }
+.f-36{ font-size: 36px; }
+.f-24{ font-size: 24px; }
+.f-18{ font-size: 18px; }
+.f-14{ font-size: 14px; }
+.f-12{ font-size: 12px; line-height: 1.5em; }
+.relative{ position: relative; }
+.z-2{ z-index: 2; }
+.decor{
+	position: absolute;
+	z-index: 1;
+	&-left{ left: 0; }
+	&-right{ right: 0; }
+	&-top{ top: 0; }
+	&-bottom{ bottom: 0; }
+}
+
+body{
+	background-color: $brand-color3;
+	background-image: url(../images/paper-texture.jpg);
+	background-position: left top;
+	background-attachment: fixed;
+	color: $brand-color2;
+	position: relative;
+	overflow-x: hidden;
+}
+.pattern{
+	background-image: url(../images/pattern.png);
+	background-position: bottom center;
+	background-size: cover;
+}
+
+
+@include media-breakpoint-up(md){
+	
+}
+
+@include media-breakpoint-up(lg){
+
+}
+
+@include media-breakpoint-up(xl){
+
+}
